@@ -73,15 +73,15 @@ separated by spaces:
  {population size} {vacc_percentage} {virus_name} {mortality_rate} {repro_rate} {optional: number of people initially infected (default is 1)}
 
  Let's look at an example:
- * Population Size: 100,000
- * Vaccination Percentage: 90%
- * Virus Name: Ebola
- * Mortality Rate: 70%
+ * Population Size: 10,000
+ * Vaccination Percentage: 80%
+ * Virus Name: Rabies
+ * Mortality Rate: 60%
  * Reproduction Rate: 25%
- * People Initially Infected: 10
+ * People Initially Infected: 20
 
  Then I would type: <br>
- `python3 simulation.py 100000 0.90 Ebola 0.70 0.25 10` in the terminal.
+ `python3 simulation.py 10000 0.80 Rabies 0.60 0.25 10` in the terminal.
 
 ## Basic Structure
 
